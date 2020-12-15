@@ -167,6 +167,7 @@ $(function () {
                 console.log(data);
                 cars.push(data);
                 resolve();
+                pressed = 0;
             });
         });
     };
@@ -178,6 +179,7 @@ $(function () {
                 console.log(data);
                 manufacturers.push(data);
                 resolve();
+                pressed = 0;
             });
         });
     }
